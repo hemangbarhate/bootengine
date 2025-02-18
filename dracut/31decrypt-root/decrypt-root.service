@@ -1,5 +1,5 @@
 [Unit]
-Description=Generate and execute a systemd-cryptsetup service to decrypt the ROOT partition
+Description=Generate Custom service and execute a systemd-cryptsetup service to decrypt the ROOT partition
 
 DefaultDependencies=no
 # If systemd-networkd.service is used in the initramfs, then we should run after it, since the ROOT partition
